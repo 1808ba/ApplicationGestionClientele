@@ -1,0 +1,140 @@
+/* table, th, td {
+    border:1px solid black;
+  } */
+
+  .addClt{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    justify-content: space-around;
+
+
+    padding-left: 20px;
+    margin-top: 5px;
+
+  }
+ .addClt{
+    text-align: center;
+ } 
+ .btnAdd,.btnExport,.btnImport,.btnLogout{
+    background-color: #ac9f12;
+    width: 150px;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* height: 30px; */
+ }
+.btnImport{
+    background-color: #a91414;
+
+ }
+.btnLogout{
+    background-color: #fff;
+    border: #000;
+
+ }
+.btnLogout a{
+    color: #000;
+
+ }
+
+.btnExport{
+    background-color: #9d00ff;
+
+ }
+ .btnAdd:hover{
+    background-color: rgb(0, 255, 47);
+ }
+ .btnLogout:hover{
+    background-color: #000;
+    color: #fff;
+ }
+ .btnLogout a:hover{
+    color: #fff;
+ }
+ .btnImport:hover{
+    background-color: rgb(0, 255, 47);
+
+ }
+ .btnExport:hover{
+    background-color: rgb(0, 255, 47);
+
+ }
+
+
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+ 
+}
+
+table {
+   /* display: flex; */
+   /* justify-content: center; */
+   align-items: center;
+   /* height: 100vh; */
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   border-collapse: collapse;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+thead {
+   background-color: #007bff;
+   color: white;
+}
+
+th, td {
+   padding: 12px 15px;
+   text-align: left;
+}
+
+th {
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   font-size: 14px;
+}
+
+tbody tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+   background-color: #f1f1f1;
+}
+
+button {
+   padding: 8px 12px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 14px;
+   margin: 0 2px;
+}
+
+.edit-btn {
+   background-color: #28a745;
+   color: white;
+}
+
+.delete-btn {
+   background-color: #dc3545;
+   color: white;
+}
+
+.edit-btn:hover {
+   background-color: #218838;
+}
+
+.delete-btn:hover {
+   background-color: #c82333;
+}
+
